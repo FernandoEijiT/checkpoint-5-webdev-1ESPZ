@@ -8,7 +8,7 @@ export default function Page() {
     useEffect(() => {
         async function carregar() {
             const res = await axios.get(
-                "https://{projeto}.mockapi.io/api/v1/{recurso}/{id}"
+                "https://6abc410ab2118ed7abb9a6d6.mockapi.io/:endpoint"
             );
             setData(res.data.data);
         }
