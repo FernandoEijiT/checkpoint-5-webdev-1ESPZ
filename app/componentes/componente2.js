@@ -3,42 +3,42 @@
 import { useState } from "react";
 
 export default function Componente() {
-    const [nome, setNome] = useState("");
-    const [nomes, setNomes] = useState([]);
+    const [email, setEmail] = useState("");
+    const [emails, setEmails] = useState([]);
 
-    function adicionarNome() {
-        const valor = nome.trim();
+    function adicionarEmail() {
+        const valor = email.trim();
 
         if (!valor) {
             return;
         }
 
-        setNomes((listaAtual) => [...listaAtual, valor]);
-        setNome("");
+        setEmails((listaAtual) => [...listaAtual, valor]);
+        setEmail("");
     }
 
     return (
         <div>
-            <h2>Adicionar nome</h2>
+            <h2>Adicionar email</h2>
 
             <div>
                 <input
                     type="text"
-                    value={nome}
-                    onChange={(event) => setNome(event.target.value)}
-                    placeholder="Digite um nome"
+                    value={email}
+                    onChange={(event) => setEmail(event.target.value)}
+                    placeholder="Digite um email"
                 />
 
                 <button
                     type="button"
-                    onClick={adicionarNome}
+                    onClick={adicionarEmail}
                 >
                     Adicionar
                 </button>
             </div>
 
             <ul>
-                {nomes.map((item, index) => (
+                {emails.map((item, index) => (
                     <li key={`${item}-${index}`}>
                         {item}
                     </li>
