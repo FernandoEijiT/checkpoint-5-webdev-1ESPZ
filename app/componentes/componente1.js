@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-export default function Componente2() {
+export default function Componente1() {
     const [nome, setNome] = useState("");
     const [nomes, setNomes] = useState([]);
 

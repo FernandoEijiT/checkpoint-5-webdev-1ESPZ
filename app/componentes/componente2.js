@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-export default function Componente() {
+export default function Componente2() {
     const [email, setEmail] = useState("");
     const [emails, setEmails] = useState([]);
 
