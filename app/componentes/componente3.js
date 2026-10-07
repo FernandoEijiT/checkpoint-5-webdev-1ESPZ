@@ -33,7 +33,7 @@ export default function Componente3() {
                     type="button"
                     onClick={adicionarTelefone}
                 >
-                    Adicionar
+                    Adicionar telefone
                 </button>
             </div>
 

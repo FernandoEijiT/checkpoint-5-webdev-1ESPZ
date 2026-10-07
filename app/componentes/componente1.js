@@ -33,7 +33,7 @@ export default function Componente1() {
                     type="button"
                     onClick={adicionarNome}
                 >
-                    Adicionar
+                    Adicionar nome
                 </button>
             </div>
 

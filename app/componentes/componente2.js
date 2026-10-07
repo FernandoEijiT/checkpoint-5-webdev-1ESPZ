@@ -33,7 +33,7 @@ export default function Componente2() {
                     type="button"
                     onClick={adicionarEmail}
                 >
-                    Adicionar
+                    Adicionar email
                 </button>
             </div>
 
