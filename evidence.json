@@ -1,0 +1,138 @@
+{
+  "turma": "1ESPZ",
+  "project": "FernandoEijiT-checkpoint-5-webdev-1ESPZ",
+  "hasGit": true,
+  "nextRoots": [
+    {
+      "pkgPath": "package.json",
+      "dir": "/Volumes/externo/FIAP/corretor-avaliacoes/turmas/2026/checkpoint-5/1ESPZ/FernandoEijiT-checkpoint-5-webdev-1ESPZ",
+      "next": "16.4.0",
+      "axios": null,
+      "react": "19.3.0",
+      "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "eslint"
+      }
+    }
+  ],
+  "components": [
+    {
+      "name": "Componente1",
+      "file": "app/componentes/componente1.js",
+      "inComponents": true
+    },
+    {
+      "name": "Componente2",
+      "file": "app/componentes/componente2.js",
+      "inComponents": true
+    },
+    {
+      "name": "Componente3",
+      "file": "app/componentes/componente3.js",
+      "inComponents": true
+    },
+    {
+      "name": "Componente3",
+      "file": "app/componentes/componente4.js",
+      "inComponents": true
+    },
+    {
+      "name": "Componente3",
+      "file": "app/componentes/componente5.js",
+      "inComponents": true
+    },
+    {
+      "name": "Componente3",
+      "file": "app/componentes/componente6.js",
+      "inComponents": true
+    }
+  ],
+  "componentCount": 6,
+  "componentsInComponentsFolder": 6,
+  "axiosHits": [
+    "app/details/id/page.js:2: import axios from \"axios\";",
+    "app/details/id/page.js:10: const res = await axios.get("
+  ],
+  "fetchHits": [],
+  "useStateHits": [
+    "app/componentes/componente1.js:3: import { useState } from \"react\";",
+    "app/componentes/componente1.js:6: const [nome, setNome] = useState(\"\");",
+    "app/componentes/componente1.js:7: const [nomes, setNomes] = useState([]);",
+    "app/componentes/componente2.js:3: import { useState } from \"react\";",
+    "app/componentes/componente2.js:6: const [email, setEmail] = useState(\"\");",
+    "app/componentes/componente2.js:7: const [emails, setEmails] = useState([]);",
+    "app/componentes/componente3.js:3: import { useState } from \"react\";",
+    "app/componentes/componente3.js:6: const [telefone, setTelefone] = useState(\"\");",
+    "app/componentes/componente3.js:7: const [telefones, setTelefones] = useState([]);",
+    "app/componentes/componente4.js:3: import { useState } from \"react\";",
+    "app/componentes/componente4.js:6: const [cpf, setCpf] = useState(\"\");",
+    "app/componentes/componente4.js:7: const [cpfs, setCpfs] = useState([]);",
+    "app/componentes/componente5.js:3: import { useState } from \"react\";",
+    "app/componentes/componente5.js:6: const [sexo, setSexo] = useState(\"\");",
+    "app/componentes/componente5.js:7: const [sexos, setSexos] = useState([]);",
+    "app/componentes/componente6.js:3: import { useState } from \"react\";",
+    "app/componentes/componente6.js:6: const [estadoCivil, setEstadoCivil] = useState(\"\");",
+    "app/componentes/componente6.js:7: const [estadosCivis, setEstadosCivis] = useState([]);",
+    "app/details/id/page.js:3: import { useEffect, useState } from \"react\";",
+    "app/details/id/page.js:6: const [data, setData] = useState([]);"
+  ],
+  "useEffectHits": [
+    "app/details/id/page.js:3: import { useEffect, useState } from \"react\";",
+    "app/details/id/page.js:8: useEffect(() => {"
+  ],
+  "useRouterHits": [],
+  "linkHits": [],
+  "useClientHits": [
+    "app/componentes/componente1.js:1: \"use client\";",
+    "app/componentes/componente2.js:1: \"use client\";",
+    "app/componentes/componente3.js:1: \"use client\";",
+    "app/componentes/componente4.js:1: \"use client\";",
+    "app/componentes/componente5.js:1: \"use client\";",
+    "app/componentes/componente6.js:1: \"use client\";",
+    "app/details/id/page.js:1: \"use client\";"
+  ],
+  "useMemoHits": [],
+  "useCallbackHits": [],
+  "useRefHits": [],
+  "localStorageHits": [],
+  "loadingHints": [],
+  "errorHints": [
+    "package-lock.json:3625: \"zod-validation-error\": \"^3.5.0 || ^4.0.0\""
+  ],
+  "searchHints": [
+    "package-lock.json:2452: \"node_modules/aria-query\": {",
+    "package-lock.json:2454: \"resolved\": \"https://registry.npmjs.org/aria-query/-/aria-query-5.3.2.tgz\",",
+    "package-lock.json:2665: \"node_modules/axobject-query\": {",
+    "package-lock.json:2667: \"resolved\": \"https://registry.npmjs.org/axobject-query/-/axobject-query-4.1.0.tgz\",",
+    "package-lock.json:3558: \"aria-query\": \"^5.3.2\",",
+    "package-lock.json:3563: \"axobject-query\": \"^4.1.0\","
+  ],
+  "dynamicRoutes": [],
+  "honeypots": [],
+  "reduxVueClass": [],
+  "readmes": [
+    {
+      "path": "README.md",
+      "preview": ""
+    }
+  ],
+  "participantes": [
+    {
+      "path": "participantes.md",
+      "preview": "Alexandre Jardim de Souza - RM 573744\nFernando Eiji Tanaka - RM 570871\nEnzo Dias - RM 569866"
+    }
+  ],
+  "vercelLinks": [],
+  "apiHints": [
+    "MockAPI"
+  ],
+  "git": {
+    "commitCount": 10,
+    "branch": "main",
+    "remote": "origin\thttps://github.com/FernandoEijiT/checkpoint-5-webdev-1ESPZ (fetch)\norigin\thttps://github.com/FernandoEijiT/checkpoint-5-webdev-1ESPZ (push)",
+    "shortlog": "10\tFernando <fer.eiji@gmail.com>",
+    "logOneline": "b63fcae fix: corrigindo erros de sintaxe\n4933299 feat: adicionando os componentes finais\n25fa034 feat: adicionando a aba de cpf\nf4fa913 feat: subindo ao site o componente\n44a32b6 feat: adicionando a funcionalidade de adicionar um numero de telefone\n86bff08 fix: consertando a sintaxe do componente adicionado anteriormente\n1540d36 feat: adicionando uma nova funcionalidade\n0008caf feat: adicionando a opção de adicionar o nome\nf17a9bf feat: foi realizado a integração de api\n0526d2d Feat: git inicial do projeto"
+  }
+}

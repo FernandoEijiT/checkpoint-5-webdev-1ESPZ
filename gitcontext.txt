@@ -1,0 +1,41 @@
+# CONTEXTO GIT - 1ESPZ/FernandoEijiT-checkpoint-5-webdev-1ESPZ
+# Path: /Volumes/externo/FIAP/corretor-avaliacoes/turmas/2026/checkpoint-5/1ESPZ/FernandoEijiT-checkpoint-5-webdev-1ESPZ
+
+## git remote -v
+origin	https://github.com/FernandoEijiT/checkpoint-5-webdev-1ESPZ (fetch)
+origin	https://github.com/FernandoEijiT/checkpoint-5-webdev-1ESPZ (push)
+
+## git branch -a
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+
+## git log --oneline -50 (default branch)
+b63fcae fix: corrigindo erros de sintaxe
+4933299 feat: adicionando os componentes finais
+25fa034 feat: adicionando a aba de cpf
+f4fa913 feat: subindo ao site o componente
+44a32b6 feat: adicionando a funcionalidade de adicionar um numero de telefone
+86bff08 fix: consertando a sintaxe do componente adicionado anteriormente
+1540d36 feat: adicionando uma nova funcionalidade
+0008caf feat: adicionando a opção de adicionar o nome
+f17a9bf feat: foi realizado a integração de api
+0526d2d Feat: git inicial do projeto
+
+## git shortlog -sn -e (HEAD)
+10	Fernando <fer.eiji@gmail.com>
+
+## git log --oneline --graph --all -20
+* b63fcae fix: corrigindo erros de sintaxe
+* 4933299 feat: adicionando os componentes finais
+* 25fa034 feat: adicionando a aba de cpf
+* f4fa913 feat: subindo ao site o componente
+* 44a32b6 feat: adicionando a funcionalidade de adicionar um numero de telefone
+* 86bff08 fix: consertando a sintaxe do componente adicionado anteriormente
+* 1540d36 feat: adicionando uma nova funcionalidade
+* 0008caf feat: adicionando a opção de adicionar o nome
+* f17a9bf feat: foi realizado a integração de api
+* 0526d2d Feat: git inicial do projeto
+
+## contagem de commits HEAD
+10
